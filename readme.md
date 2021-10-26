@@ -38,6 +38,11 @@ L'api retourne un json sous le format ci-dessous:
 ```
 
 
+## Maquette site
+![Alt text](/imgMd/frame1.png "frame 1")
+
+
+![Alt text](/imgMd/frame2.png "frame2")
 
 
 
