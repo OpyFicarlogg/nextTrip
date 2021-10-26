@@ -1,5 +1,8 @@
 ## Accès au ws 
 
+
+Lancer le server avec la commande: `symfony server:start`
+
 L'api est disponible sur le endpoint http://127.0.0.1:8000/chooseNextTrip
 
 Avec les paramètres town1 et town2 
