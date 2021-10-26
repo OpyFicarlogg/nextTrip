@@ -6,6 +6,7 @@ Avec les paramètres town1 et town2
 
 Exemple: `http://127.0.0.1:8000/chooseNextTrip?town1=Barcelone&town2=Lisbon`
 
+*Erreur connue* : Exception mal gérée dans le cas d'une ville n'existant pas, ou mal renseignée (exemple: Barcelon)
 
 ## Fonctionnement 
 
@@ -23,13 +24,13 @@ L'api retourne un json sous le format ci-dessous:
 
  ```
 {
-    "name": "Barcelone",
-    "clouds": "68",
-    "humidity": "63",
-    "temp": "21",
-    "startDt": 1635246000,
-    "endDt": 1635850800,
-    "score": 35
+    "name": "Barcelone",    //String
+    "clouds": "68",         //Integer
+    "humidity": "63",       //Integer
+    "temp": "21",           //Integer
+    "startDt": 1635246000,  //Timestamp
+    "endDt": 1635850800,    //Timestamp
+    "score": 35             //Integer 
 }
 ```
 
